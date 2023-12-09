@@ -15,6 +15,7 @@ class DummyLockHomeKey {
     // get config values
     this.log = log;
     this.name = config['name'];
+    this.color = config['color'];
     this.lockService = new Service.LockMechanism(this.name);
     this.lockState = Characteristic.LockCurrentState.SECURED;
   }
@@ -26,7 +27,7 @@ class DummyLockHomeKey {
         .setCharacteristic(Characteristic.Manufacturer, 'Acme')
         .setCharacteristic(Characteristic.Model, 'Dummy Lock 1.0')
         .setCharacteristic(Characteristic.SerialNumber, '1234')
-        .setCharacteristic(Characteristic.HardwareFinish, "AQT///8A");
+        .setCharacteristic(Characteristic.HardwareFinish, this.color);
 
     this.lockService.getCharacteristic(Characteristic.LockCurrentState)
       .on('get', this.getLockCharacteristicHandler.bind(this));

@@ -1,6 +1,6 @@
 {
   "name": "homebridge-dummy-lock-homekey",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Dummy Lock with HomeKey for Homebridge",
   "license": "MIT",
   "keywords": [

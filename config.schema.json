@@ -10,6 +10,13 @@
                 "required": true,
                 "default": "Lock",
                 "description": "The name that will appear in your homebridge log."
+            },
+            "color": {
+                "title": "Color",
+                "type": "string",
+                "required": false,
+                "default": "AQT///8A",
+                "description": "HardwareFinish/Color."
             }
         }
     }
