@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "DummyLock",
+    "pluginAlias": "DummyLockHomeKey",
     "pluginType": "accessory",
     "schema": {
         "type": "object",
