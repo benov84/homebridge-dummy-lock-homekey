@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-dummy-lock-homekey",
+  "version": "1.0.4",
+  "description": "Dummy Lock with HomeKey for Homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benov84/homebridge-dummy-lock-homekey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benov84/homebridge-dummy-lock-homekey/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "node-persist": "^2.1.0"
+  }
+}
