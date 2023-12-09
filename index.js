@@ -7,10 +7,10 @@ module.exports = (homebridge) => {
   Accessory = homebridge.hap.Accessory;
   CharacteristicEventTypes = homebridge.hap.CharacteristicEventTypes;
 
-  homebridge.registerAccessory('homebridge-dummy-lock', 'DummyLock', DummyLock)
+  homebridge.registerAccessory('homebridge-dummy-lock', 'DummyLockHomeKey', DummyLockHomeKey)
 }
 
-class DummyLock {
+class DummyLockHomeKey {
   constructor (log, config) {
     // get config values
     this.log = log;
